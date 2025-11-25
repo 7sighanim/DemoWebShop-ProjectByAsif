@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[https://demowebshop.tricentis.com/]]>
+    </line>
+    <line>
+      <![CDATA[Chrome]]>
+    </line>
+    <line>
+      <![CDATA[Browser setup success]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[search box is displayed and enabled :) ]]>
+    </line>
+    <line>
+      <![CDATA[search button is active]]>
+    </line>
+    <line>
+      <![CDATA[computer-Added to cart succesfully]]>
+    </line>
+    <line>
+      <![CDATA[shopping cart is displayed and enabled :) ]]>
+    </line>
+    <line>
+      <![CDATA[ticked checkbox]]>
+    </line>
+    <line>
+      <![CDATA[CheckOut button is clicked succesfully :) ]]>
+    </line>
+    <line>
+      <![CDATA[Your order has been successfully processed!]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[Browser Terminated Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-11-25T16:26:15 IST" name="Regression2Suite" finished-at="2025-11-25T16:26:51 IST" duration-ms="35525">
+    <groups>
+      <group name="FT">
+        <method signature="ProductTest.verifyDesktop()[pri:2, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" name="verifyDesktop" class="org.dwsapp.allproductstest.ProductTest"/>
+      </group> <!-- FT -->
+    </groups>
+    <test started-at="2025-11-25T16:26:15 IST" name="Test" finished-at="2025-11-25T16:26:51 IST" duration-ms="35525">
+      <class name="org.dwsapp.allproductstest.ProductTest">
+        <test-method is-config="true" signature="ReportSetup()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:15 IST" name="ReportSetup" finished-at="2025-11-25T16:26:15 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String)[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:15 IST" name="browserSetup" finished-at="2025-11-25T16:26:24 IST" duration-ms="9228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[https://demowebshop.tricentis.com/]]>
+            </line>
+            <line>
+              <![CDATA[Chrome]]>
+            </line>
+            <line>
+              <![CDATA[Browser setup success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:25 IST" name="login" finished-at="2025-11-25T16:26:28 IST" duration-ms="3051" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyDesktop()[pri:2, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:28 IST" name="verifyDesktop" finished-at="2025-11-25T16:26:48 IST" duration-ms="20084" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[search box is displayed and enabled :) ]]>
+            </line>
+            <line>
+              <![CDATA[search button is active]]>
+            </line>
+            <line>
+              <![CDATA[computer-Added to cart succesfully]]>
+            </line>
+            <line>
+              <![CDATA[shopping cart is displayed and enabled :) ]]>
+            </line>
+            <line>
+              <![CDATA[ticked checkbox]]>
+            </line>
+            <line>
+              <![CDATA[CheckOut button is clicked succesfully :) ]]>
+            </line>
+            <line>
+              <![CDATA[Your order has been successfully processed!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDesktop -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:48 IST" name="logout" finished-at="2025-11-25T16:26:50 IST" duration-ms="2109" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:50 IST" name="browserTerminate" finished-at="2025-11-25T16:26:50 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Terminated Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserTerminate -->
+        <test-method is-config="true" signature="ReportTerminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:50 IST" name="ReportTerminate" finished-at="2025-11-25T16:26:51 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTerminate -->
+      </class> <!-- org.dwsapp.allproductstest.ProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression2Suite -->
+</testng-results>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="url" value="https://demowebshop.tricentis.com/"/>
+  <listeners>
+    <listener class-name="org.dwsapp.listenerlibrary.ListenerImplimentation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.dwsapp.producttest.ElectronicsTest">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="verifyCameraAndPhoto"/>
+          <include name="verifyCellphone"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="browserTerminate"/>
+        </methods>
+      </class> <!-- org.dwsapp.producttest.ElectronicsTest -->
+      <class name="org.dwsapp.producttest.BookTest">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="verifyHealthBook"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="browserTerminate"/>
+        </methods>
+      </class> <!-- org.dwsapp.producttest.BookTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
