@@ -14,6 +14,8 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
 
+import Assignment.CellPhonesPage;
+
 @Listeners(org.dwsapp.listenerlibrary.ListenerImplimentation.class)
 public class ProductTest extends BaseConfig {
 
@@ -232,7 +234,7 @@ public class ProductTest extends BaseConfig {
 		enterDataOnElement(wpobj.getsearchboxtextfield(), exlib.readdata("Searchdata", 0, 0));
 
 		// step3: click on health book product
-		Assert.assertTrue(bpobj.gethealthbookproduct().isDisplayed());
+		Assert.assertTrue(bpobj.get.isDisplayed());
 		Assert.assertTrue(bpobj.gethealthbookproduct().isEnabled());
 
 		if (cpobj.getsimplecomputerbutton().isDisplayed() && cpobj.getsimplecomputerbutton().isEnabled()) {
@@ -356,14 +358,139 @@ public class ProductTest extends BaseConfig {
 	@Test(enabled = false, priority = 1, groups = "RT")
 	public void verifyCellphone() {
 
+		// create the Test information
+				test = report.createTest("verify CellPhones");
+
+				// steps information
+				test.log(Status.INFO, "Step 1: launching the browser");
+				test.log(Status.INFO, "Step 2: Navigating to the application via url Successful");
+				test.log(Status.INFO, "Step 3: verified page Successful");
+
 		waitStatement();
+		//epobj = new ElectronicsPage(driver);
+		cppobj = new CellPhonesPage(driver);
+		wpobj = new WelcomePage(driver);
 
-		epobj = new ElectronicsPage(driver);
+		// Step 4: MouseHovering to the Electronics
+		Assert.assertEquals(wpobj.getElectronicsheader().isDisplayed(), true);
+		Assert.assertEquals(wpobj.getElectronicsheader().isEnabled(), true);
+		if (wpobj.getElectronicsheader().isDisplayed() && wpobj.getElectronicsheader().isEnabled()) {
+			test.log(Status.PASS, "Step 4: verified the Electronicsheader is displayed and enabled");
+		} else {
+			test.log(Status.FAIL, "Step 4: verified the Electronicsheader is not displayed and not enabled");
+		}
+		mouseHoverToTheElement(wpobj.getElectronicsheader());
+		Reporter.log("Mouse Hovered to the Electronics Successfully");
 
-		clickOnElement(epobj.getelectronicsmodule());
-		clickOnElement(epobj.getsmartphoneselection());
-		clickOnElement(epobj.getphonecoverselection());
-		clickOnElement(epobj.getaddtocartphone());
+		waitStatement(wpobj.getCellphoneshidden());
+
+		// Step 5: MouseHovering to the Electronics and clicked on cell phones
+		Assert.assertEquals(wpobj.getCellphoneshidden().isDisplayed(), true);
+		Assert.assertEquals(wpobj.getCellphoneshidden().isEnabled(), true);
+		if (wpobj.getCellphoneshidden().isDisplayed() && wpobj.getCellphoneshidden().isEnabled()) {
+			test.log(Status.PASS, "Step 5: verified the Cellphones is displayed and enabled");
+		} else {
+			test.log(Status.FAIL, "Step 5: verified the Cellphones is not displayed and not enabled");
+		}
+		clickOnElement_UsingActions(wpobj.getCellphoneshidden());
+		Reporter.log("Cellphone clicked Successfully");
+
+		// Step 6: Camera text is displayed and enabled
+		Assert.assertEquals(cppobj.getPhonelinktext().isDisplayed(), true);
+		Assert.assertEquals(cppobj.getPhonelinktext().isEnabled(), true);
+		if (cppobj.getPhonelinktext().isDisplayed() && cppobj.getPhonelinktext().isEnabled()) {
+			test.log(Status.PASS, "Step 6: verified the Phonelinktext is displayed and enabled");
+		} else {
+			test.log(Status.FAIL, "Step 6: verified the Phonelinktext is not displayed and not enabled");
+		}
+		clickOnElement(cppobj.getPhonelinktext());
+		Reporter.log("Phone text clicked Successfully", true);
+
+		// Step 7: Add to cart is displayed and enabled
+		Assert.assertEquals(cppobj.getAddtocart().isDisplayed(), true);
+		Assert.assertEquals(cppobj.getAddtocart().isEnabled(), true);
+		if (cppobj.getAddtocart().isDisplayed() && cppobj.getAddtocart().isEnabled()) {
+			test.log(Status.PASS, "Step 6: verified the Phonelinktext is displayed and enabled");
+		} else {
+			test.log(Status.FAIL, "Step 6: verified the Phonelinktext is not displayed and not enabled");
+		}
+		clickOnElement(cppobj.getAddtocart());
+		Reporter.log("Phone added to cart Successfully", true);
+		// Step 8: Shoppingcart button is displayed and Enabled and clicked on the Cart
+		Assert.assertEquals(bpobj.getShoppingcart().isDisplayed(), true);
+		Assert.assertEquals(bpobj.getShoppingcart().isEnabled(), true);
+		if (bpobj.getShoppingcart().isDisplayed() && bpobj.getShoppingcart().isEnabled()) {
+			test.log(Status.PASS, "Step 8: verified the Shoppingcart is displayed and enabled");
+		} else {
+			test.log(Status.FAIL, "Step 8: verified the Shoppingcart is not displayed and not enabled");
+		}
+		clickOnElement(bpobj.getShoppingcart());
+		Reporter.log("Clicked on Shoppingcart Successfully", true);
+
+		// Step 10:countryid dropdown is displayed and enabled
+		Assert.assertEquals(bpobj.getCountryId().isDisplayed(), true);
+		Assert.assertEquals(bpobj.getCountryId().isEnabled(), true);
+		if (bpobj.getCountryId().isDisplayed() && bpobj.getCountryId().isEnabled()) {
+			test.log(Status.PASS, "Step 10: verified the countryid dropdown is displayed and enabled");
+		} else {
+			test.log(Status.FAIL, "Step 10: verified the countryid dropdown is not displayed and not enabled");
+		}
+		selectOption("Canada", bpobj.getCountryId());
+		Reporter.log("Clicked on Countryid dropdown  Successfully", true);
+
+		// Step 11:State dropdown is displayed and enabled
+		Assert.assertEquals(bpobj.getStateProvinceId().isDisplayed(), true);
+		Assert.assertEquals(bpobj.getStateProvinceId().isEnabled(), true);
+		if (bpobj.getStateProvinceId().isDisplayed() && bpobj.getStateProvinceId().isEnabled()) {
+			test.log(Status.PASS, "Step 11: verified the State dropdown is displayed and enabled");
+		} else {
+			test.log(Status.FAIL, "Step 11: verified the State dropdown is not displayed and not enabled");
+		}
+		selectOption("Manitoba", bpobj.getStateProvinceId());
+		Reporter.log("Clicked on State dropdown  Successfully", true);
+
+		// Step 12:Zipcode textfield is displayed and enabled and enter the code
+		Assert.assertEquals(bpobj.getZippostalcode().isDisplayed(), true);
+		Assert.assertEquals(bpobj.getZippostalcode().isEnabled(), true);
+		if (bpobj.getZippostalcode().isDisplayed() && bpobj.getZippostalcode().isEnabled()) {
+			test.log(Status.PASS, "Step 12: verified the Zipcode textfield is displayed and enabled");
+		} else {
+			test.log(Status.FAIL, "Step 12: verified the Zipcode textfield is not displayed and not enabled");
+		}
+
+		enterDataOnElement(bpobj.getZippostalcode(), "637372");
+		Reporter.log("Enter the code on Zippostal code  Successfully", true);
+
+		// Step 13:Estimateshipping button is displayed and enabled and clicked on that
+		Assert.assertEquals(bpobj.getEstimateshipping().isDisplayed(), true);
+		Assert.assertEquals(bpobj.getEstimateshipping().isEnabled(), true);
+		if (bpobj.getEstimateshipping().isDisplayed() && bpobj.getEstimateshipping().isEnabled()) {
+			test.log(Status.PASS, "Step 13: verified the Estimateshipping button is displayed and enabled");
+		} else {
+			test.log(Status.FAIL, "Step 13: verified the Estimateshipping button is not displayed and not enabled");
+		}
+		clickOnElement(bpobj.getEstimateshipping());
+		Reporter.log("Estimateshipping button clicked  Successfully", true);
+
+		// Step 14:clicked on checkbox
+		clickOnElement(bpobj.getTermsofservice());
+		Reporter.log("Clicked on TermsofserviceCheckbox Successfully", true);
+
+		// Step 15: Checkout button is displayed and Enabled and clicked on the Checkout
+		Assert.assertEquals(bpobj.getCheckoutbtn().isDisplayed(), true);
+		Assert.assertEquals(bpobj.getCheckoutbtn().isEnabled(), true);
+		if (bpobj.getCheckoutbtn().isDisplayed() && bpobj.getCheckoutbtn().isEnabled()) {
+			test.log(Status.PASS, "Step 15: verified the Checkoutbtn is displayed and enabled");
+		} else {
+			test.log(Status.FAIL, "Step 15: verified the Checkoutbtn is not displayed and not enabled");
+		}
+		clickOnElement(bpobj.getCheckoutbtn());
+		Reporter.log("Clicked on Checkout button Successfully", true);
+
+		//clickOnElement(epobj.getelectronicsmodule());
+		//clickOnElement(epobj.getsmartphoneselection());
+		//clickOnElement(epobj.getphonecoverselection());
+		//clickOnElement(epobj.getaddtocartphone());
 
 		Reporter.log("Electronics-Cellphone added to cart succesfully", true);
 

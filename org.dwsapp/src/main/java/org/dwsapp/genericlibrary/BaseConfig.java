@@ -37,6 +37,7 @@ public class BaseConfig extends WebDriverLibrary {
 	public ExtentSparkReporter spark;
 	public ExtentTest test;
 	public ShoppingCartPage scobj;
+	public NoteBookComputerpage ncobj;
 	
 	@BeforeTest
 	public void ReportSetup() {

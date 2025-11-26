@@ -14,6 +14,18 @@ public class ShoppingCartPage {
 
 	@FindBy(linkText = "Shopping cart")
 	private WebElement shoppingcart;
+	
+	@FindBy(xpath="//div[@class='shipping-options']/div[1]/select")
+	private WebElement countryId;
+	
+	@FindBy(xpath="//div[@class='shipping-options']/div[2]/select")
+	private WebElement stateProvinceId;
+	
+	@FindBy(id="ZipPostalCode")
+	private WebElement zippostalcode;
+	
+	@FindBy(name="estimateshipping")
+	private WebElement estimateshipping;
 
 	@FindBy(id = "termsofservice")
 	private WebElement checkbox;
@@ -47,6 +59,18 @@ public class ShoppingCartPage {
 
 public WebElement getshoppingcart() {
 	return shoppingcart;
+}
+public WebElement getCountryId() {
+	return countryId;
+}
+public WebElement getStateProvinceId() {
+	return stateProvinceId;
+}
+public WebElement getZippostalcode() {
+	return zippostalcode;
+}
+public WebElement getEstimateshipping() {
+	return estimateshipping;
 }
 
 public WebElement getcheckbox() {

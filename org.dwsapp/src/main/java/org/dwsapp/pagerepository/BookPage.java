@@ -8,14 +8,16 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BookPage {
 
-	@FindBy(linkText = "Books")
-	private WebElement bookmodule;
+	@FindBy(linkText ="Health Book")
+	private WebElement booklinktext;
 	
-	@FindBy(xpath = "//a[@href='/health'")
-	private WebElement healthbookproduct;
+	@FindBy(id="add-to-cart-button-22")
+	private WebElement addtocart;
 	
-	@FindBy(id = "add-to-cart-button-22")
-	private WebElement addtocartbook;
+	@FindBy(xpath="//span[text()='Shopping cart']")
+	private WebElement shoppingcart;
+	
+	
 	
 	public BookPage(WebDriver driver) {
 		
@@ -23,15 +25,15 @@ public class BookPage {
 	}
 	
 	
-	public WebElement getbookmodule() {
-		return bookmodule;
-	}
 	
-	public WebElement gethealthbookproduct() {
-		return healthbookproduct;
+	public WebElement getBooklinktext() {
+		return booklinktext;
 	}
-	
-	public WebElement getaddtocartbook() {
-		return addtocartbook;
+
+	public WebElement getAddtocart() {
+		return addtocart;
+	}
+	public WebElement getShoppingcart() {
+		return shoppingcart;
 	}
 }
