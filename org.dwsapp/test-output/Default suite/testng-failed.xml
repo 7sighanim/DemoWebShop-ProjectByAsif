@@ -3,19 +3,22 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.dwsapp.allproductstest.ProductTest$ComputerTest">
+      <class name="org.dwsapp.allproductstest.ProductTest">
         <methods>
-          <include name="ReportTerminate"/>
+          <include name="verifyNoteBook"/>
+          <include name="browserTeminate"/>
           <include name="browserSetup"/>
-          <include name="verifyDesktop"/>
+          <include name="reportTerminate"/>
+          <include name="reportSetup"/>
           <include name="logout"/>
-          <include name="verifyNotebook"/>
           <include name="login"/>
-          <include name="browserTerminate"/>
-          <include name="ReportSetup"/>
+          <include name="verifyCellPhones"/>
+          <include name="verifyDesktop"/>
+          <include name="verifyHealthBook"/>
           <include name="verifyAccessories"/>
+          <include name="verifyCameraAndPhoto"/>
         </methods>
-      </class> <!-- org.dwsapp.allproductstest.ProductTest$ComputerTest -->
+      </class> <!-- org.dwsapp.allproductstest.ProductTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

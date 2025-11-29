@@ -107,6 +107,11 @@ public class WebDriverLibrary implements ProjectConstant{
 		selectobj = new Select(dropdownElement);
 		selectobj.selectByVisibleText(value);
 	}
+	
+	public void mouseHoverToElement(WebElement element) {
+		actionobj = new Actions(driver);
+		actionobj.moveToElement(element).perform();
+	}
 }
 
 

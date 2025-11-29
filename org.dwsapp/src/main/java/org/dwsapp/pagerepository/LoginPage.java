@@ -31,6 +31,11 @@ public class LoginPage {
 		public WebElement loginButton() {
 			return loginButton;
 		}
+
+		public WebElement getloginbutton() {
+			// TODO Auto-generated method stub
+			return loginButton;
+		}
 		
 		
 }

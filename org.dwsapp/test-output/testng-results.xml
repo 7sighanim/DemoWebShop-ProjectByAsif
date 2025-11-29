@@ -1,140 +1,905 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[https://demowebshop.tricentis.com/]]>
-    </line>
-    <line>
-      <![CDATA[Chrome]]>
-    </line>
     <line>
       <![CDATA[Browser setup success]]>
     </line>
     <line>
-      <![CDATA[login]]>
+      <![CDATA[Login success]]>
     </line>
     <line>
-      <![CDATA[search box is displayed and enabled :) ]]>
+      <![CDATA[Search box working Successfully]]>
     </line>
     <line>
-      <![CDATA[search button is active]]>
+      <![CDATA[Entering data Successfully]]>
     </line>
     <line>
-      <![CDATA[computer-Added to cart succesfully]]>
+      <![CDATA[Search button clicked Successfully]]>
     </line>
     <line>
-      <![CDATA[shopping cart is displayed and enabled :) ]]>
+      <![CDATA[Clicked on the book Successfully]]>
     </line>
     <line>
-      <![CDATA[ticked checkbox]]>
+      <![CDATA[book Added to cart Successfully]]>
     </line>
     <line>
-      <![CDATA[CheckOut button is clicked succesfully :) ]]>
+      <![CDATA[Clicked on Shoppingcart Successfully]]>
     </line>
     <line>
-      <![CDATA[Your order has been successfully processed!]]>
+      <![CDATA[Clicked on Countryid dropdown  Successfully]]>
     </line>
     <line>
-      <![CDATA[logOut]]>
+      <![CDATA[Clicked on State dropdown  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter the code on Zippostal code  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Estimateshipping button clicked  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Checkout button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Billingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shipping method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Payment method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Confirm button  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Thank you text displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[BookTest-HealthBook Verified]]>
+    </line>
+    <line>
+      <![CDATA[Log out success]]>
+    </line>
+    <line>
+      <![CDATA[Login success]]>
+    </line>
+    <line>
+      <![CDATA[Mouse Hovered to the computers Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Desktop clicked Successfully]]>
+    </line>
+    <line>
+      <![CDATA[computer text clicked Successfully]]>
+    </line>
+    <line>
+      <![CDATA[computer added to cart Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shoppingcart Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Countryid dropdown  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on State dropdown  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter the code on Zippostal code  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Estimateshipping button clicked  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Checkout button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Billingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shipping method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Payment method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Confirm button  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Thank you text displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[ComputerTest-Desktop Verified]]>
+    </line>
+    <line>
+      <![CDATA[Log out success]]>
+    </line>
+    <line>
+      <![CDATA[Login success]]>
+    </line>
+    <line>
+      <![CDATA[Mouse Hovered to the computers Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Notebooks clicked Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Laptop text clicked Successfully]]>
+    </line>
+    <line>
+      <![CDATA[computer added to cart Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shoppingcart Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Countryid dropdown  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on State dropdown  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter the code on Zippostal code  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Estimateshipping button clicked  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Checkout button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Billingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shipping method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Payment method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Confirm button  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Thank you text displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[ComputerTest-NoteBook Verified]]>
+    </line>
+    <line>
+      <![CDATA[Log out success]]>
+    </line>
+    <line>
+      <![CDATA[Login success]]>
+    </line>
+    <line>
+      <![CDATA[Mouse Hovered to the computers Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Accessories clicked Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Accessories text clicked Successfully]]>
+    </line>
+    <line>
+      <![CDATA[computer added to cart Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shoppingcart Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Countryid dropdown  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on State dropdown  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter the code on Zippostal code  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Estimateshipping button clicked  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Checkout button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Billingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shipping method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Payment method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Confirm button  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Thank you text displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[ComputerTest-Accessories Verified]]>
+    </line>
+    <line>
+      <![CDATA[Log out success]]>
+    </line>
+    <line>
+      <![CDATA[Login success]]>
+    </line>
+    <line>
+      <![CDATA[Mouse Hovered to the Electronics Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Camera clicked Successfully]]>
+    </line>
+    <line>
+      <![CDATA[camera text clicked Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Camera added to cart Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shoppingcart Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Countryid dropdown  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on State dropdown  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter the code on Zippostal code  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Estimateshipping button clicked  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Checkout button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Billingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shipping method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Payment method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Confirm button  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Thank you text displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[ElectronicsTest-Camera and phone Verified]]>
+    </line>
+    <line>
+      <![CDATA[Log out success]]>
+    </line>
+    <line>
+      <![CDATA[Login success]]>
+    </line>
+    <line>
+      <![CDATA[Mouse Hovered to the Electronics Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Cellphone clicked Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Phone text clicked Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Phone added to cart Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shoppingcart Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Countryid dropdown  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on State dropdown  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter the code on Zippostal code  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Estimateshipping button clicked  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Checkout button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Billingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shipping method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Payment method continue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Confirm button  Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Thank you text displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[ElectronicsTest-CellPhones Verified]]>
+    </line>
+    <line>
+      <![CDATA[Log out success]]>
     </line>
     <line>
       <![CDATA[Browser Terminated Successfully]]>
     </line>
     <line>
-      <![CDATA[Browser closed]]>
+      <![CDATA[Browser terminate success]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-11-25T16:26:15 IST" name="Regression2Suite" finished-at="2025-11-25T16:26:51 IST" duration-ms="35525">
+  <suite started-at="2025-11-29T17:13:51 IST" name="RegSuite" finished-at="2025-11-29T17:17:32 IST" duration-ms="220914">
     <groups>
+      <group name="RT">
+        <method signature="ProductTest.verifyHealthBook()[pri:1, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" name="verifyHealthBook" class="org.dwsapp.allproductstest.ProductTest"/>
+        <method signature="ProductTest.verifyAccessories()[pri:4, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" name="verifyAccessories" class="org.dwsapp.allproductstest.ProductTest"/>
+        <method signature="ProductTest.verifyCellPhones()[pri:6, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" name="verifyCellPhones" class="org.dwsapp.allproductstest.ProductTest"/>
+      </group> <!-- RT -->
+      <group name="IT">
+        <method signature="ProductTest.verifyNoteBook()[pri:3, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" name="verifyNoteBook" class="org.dwsapp.allproductstest.ProductTest"/>
+      </group> <!-- IT -->
       <group name="FT">
-        <method signature="ProductTest.verifyDesktop()[pri:2, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" name="verifyDesktop" class="org.dwsapp.allproductstest.ProductTest"/>
+        <method signature="ProductTest.verifyDesktop()[pri:2, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" name="verifyDesktop" class="org.dwsapp.allproductstest.ProductTest"/>
+        <method signature="ProductTest.verifyCameraAndPhoto()[pri:5, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" name="verifyCameraAndPhoto" class="org.dwsapp.allproductstest.ProductTest"/>
       </group> <!-- FT -->
     </groups>
-    <test started-at="2025-11-25T16:26:15 IST" name="Test" finished-at="2025-11-25T16:26:51 IST" duration-ms="35525">
+    <test started-at="2025-11-29T17:13:51 IST" name="asiTest" finished-at="2025-11-29T17:17:32 IST" duration-ms="220914">
       <class name="org.dwsapp.allproductstest.ProductTest">
-        <test-method is-config="true" signature="ReportSetup()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:15 IST" name="ReportSetup" finished-at="2025-11-25T16:26:15 IST" duration-ms="237" status="PASS">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:13:51 IST" name="reportSetup" finished-at="2025-11-29T17:13:52 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReportSetup -->
-        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String)[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:15 IST" name="browserSetup" finished-at="2025-11-25T16:26:24 IST" duration-ms="9228" status="PASS">
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String)[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:13:52 IST" name="browserSetup" finished-at="2025-11-29T17:14:05 IST" duration-ms="13718" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://demowebshop.tricentis.com/]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[https://demowebshop.tricentis.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[https://demowebshop.tricentis.com/]]>
-            </line>
-            <line>
-              <![CDATA[Chrome]]>
-            </line>
-            <line>
               <![CDATA[Browser setup success]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:25 IST" name="login" finished-at="2025-11-25T16:26:28 IST" duration-ms="3051" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:14:05 IST" name="login" finished-at="2025-11-29T17:14:08 IST" duration-ms="2855" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[login]]>
+              <![CDATA[Login success]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifyDesktop()[pri:2, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:28 IST" name="verifyDesktop" finished-at="2025-11-25T16:26:48 IST" duration-ms="20084" status="PASS">
+        <test-method signature="verifyHealthBook()[pri:1, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:14:08 IST" name="verifyHealthBook" finished-at="2025-11-29T17:14:33 IST" duration-ms="25002" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[search box is displayed and enabled :) ]]>
+              <![CDATA[Search box working Successfully]]>
             </line>
             <line>
-              <![CDATA[search button is active]]>
+              <![CDATA[Entering data Successfully]]>
             </line>
             <line>
-              <![CDATA[computer-Added to cart succesfully]]>
+              <![CDATA[Search button clicked Successfully]]>
             </line>
             <line>
-              <![CDATA[shopping cart is displayed and enabled :) ]]>
+              <![CDATA[Clicked on the book Successfully]]>
             </line>
             <line>
-              <![CDATA[ticked checkbox]]>
+              <![CDATA[book Added to cart Successfully]]>
             </line>
             <line>
-              <![CDATA[CheckOut button is clicked succesfully :) ]]>
+              <![CDATA[Clicked on Shoppingcart Successfully]]>
             </line>
             <line>
-              <![CDATA[Your order has been successfully processed!]]>
+              <![CDATA[Clicked on Countryid dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on State dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter the code on Zippostal code  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Estimateshipping button clicked  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Checkout button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Billingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shipping method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Payment method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Confirm button  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Thank you text displayed Successfully]]>
+            </line>
+            <line>
+              <![CDATA[BookTest-HealthBook Verified]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyDesktop -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:48 IST" name="logout" finished-at="2025-11-25T16:26:50 IST" duration-ms="2109" status="PASS">
+        </test-method> <!-- verifyHealthBook -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:14:33 IST" name="logout" finished-at="2025-11-29T17:14:36 IST" duration-ms="3175" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[logOut]]>
+              <![CDATA[Log out success]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:50 IST" name="browserTerminate" finished-at="2025-11-25T16:26:50 IST" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:14:37 IST" name="login" finished-at="2025-11-29T17:14:39 IST" duration-ms="2671" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyDesktop()[pri:2, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:14:39 IST" name="verifyDesktop" finished-at="2025-11-29T17:15:06 IST" duration-ms="26800" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mouse Hovered to the computers Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Desktop clicked Successfully]]>
+            </line>
+            <line>
+              <![CDATA[computer text clicked Successfully]]>
+            </line>
+            <line>
+              <![CDATA[computer added to cart Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shoppingcart Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Countryid dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on State dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter the code on Zippostal code  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Estimateshipping button clicked  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Checkout button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Billingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shipping method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Payment method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Confirm button  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Thank you text displayed Successfully]]>
+            </line>
+            <line>
+              <![CDATA[ComputerTest-Desktop Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDesktop -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:15:06 IST" name="logout" finished-at="2025-11-29T17:15:08 IST" duration-ms="1848" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log out success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:15:08 IST" name="login" finished-at="2025-11-29T17:15:11 IST" duration-ms="3221" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyNoteBook()[pri:3, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:15:11 IST" name="verifyNoteBook" finished-at="2025-11-29T17:15:32 IST" duration-ms="20527" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mouse Hovered to the computers Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Notebooks clicked Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Laptop text clicked Successfully]]>
+            </line>
+            <line>
+              <![CDATA[computer added to cart Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shoppingcart Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Countryid dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on State dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter the code on Zippostal code  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Estimateshipping button clicked  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Checkout button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Billingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shipping method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Payment method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Confirm button  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Thank you text displayed Successfully]]>
+            </line>
+            <line>
+              <![CDATA[ComputerTest-NoteBook Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNoteBook -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:15:32 IST" name="logout" finished-at="2025-11-29T17:15:34 IST" duration-ms="1969" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log out success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:15:34 IST" name="login" finished-at="2025-11-29T17:15:36 IST" duration-ms="2691" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyAccessories()[pri:4, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:15:36 IST" name="verifyAccessories" finished-at="2025-11-29T17:16:20 IST" duration-ms="44157" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mouse Hovered to the computers Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Accessories clicked Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Accessories text clicked Successfully]]>
+            </line>
+            <line>
+              <![CDATA[computer added to cart Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shoppingcart Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Countryid dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on State dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter the code on Zippostal code  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Estimateshipping button clicked  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Checkout button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Billingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shipping method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Payment method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Confirm button  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Thank you text displayed Successfully]]>
+            </line>
+            <line>
+              <![CDATA[ComputerTest-Accessories Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAccessories -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:16:20 IST" name="logout" finished-at="2025-11-29T17:16:22 IST" duration-ms="1354" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log out success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:16:22 IST" name="login" finished-at="2025-11-29T17:16:24 IST" duration-ms="2684" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyCameraAndPhoto()[pri:5, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:16:24 IST" name="verifyCameraAndPhoto" finished-at="2025-11-29T17:16:58 IST" duration-ms="33670" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mouse Hovered to the Electronics Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Camera clicked Successfully]]>
+            </line>
+            <line>
+              <![CDATA[camera text clicked Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Camera added to cart Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shoppingcart Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Countryid dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on State dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter the code on Zippostal code  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Estimateshipping button clicked  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Checkout button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Billingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shipping method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Payment method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Confirm button  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Thank you text displayed Successfully]]>
+            </line>
+            <line>
+              <![CDATA[ElectronicsTest-Camera and phone Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCameraAndPhoto -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:16:58 IST" name="logout" finished-at="2025-11-29T17:17:00 IST" duration-ms="1709" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log out success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:17:00 IST" name="login" finished-at="2025-11-29T17:17:02 IST" duration-ms="2200" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyCellPhones()[pri:6, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:17:02 IST" name="verifyCellPhones" finished-at="2025-11-29T17:17:30 IST" duration-ms="27948" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mouse Hovered to the Electronics Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Cellphone clicked Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Phone text clicked Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Phone added to cart Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shoppingcart Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Countryid dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on State dropdown  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter the code on Zippostal code  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Estimateshipping button clicked  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on TermsofserviceCheckbox Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Checkout button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Billingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shippingcontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shipping method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Payment method continue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Paymentinfocontinue button Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Confirm button  Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Thank you text displayed Successfully]]>
+            </line>
+            <line>
+              <![CDATA[ElectronicsTest-CellPhones Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCellPhones -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:17:30 IST" name="logout" finished-at="2025-11-29T17:17:32 IST" duration-ms="1671" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log out success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserTeminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:17:32 IST" name="browserTeminate" finished-at="2025-11-29T17:17:32 IST" duration-ms="351" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Terminated Successfully]]>
             </line>
             <line>
-              <![CDATA[Browser closed]]>
+              <![CDATA[Browser terminate success]]>
             </line>
           </reporter-output>
-        </test-method> <!-- browserTerminate -->
-        <test-method is-config="true" signature="ReportTerminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@7817fd62]" started-at="2025-11-25T16:26:50 IST" name="ReportTerminate" finished-at="2025-11-25T16:26:51 IST" duration-ms="400" status="PASS">
+        </test-method> <!-- browserTeminate -->
+        <test-method is-config="true" signature="reportTerminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@3d34d211]" started-at="2025-11-29T17:17:32 IST" name="reportTerminate" finished-at="2025-11-29T17:17:32 IST" duration-ms="373" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReportTerminate -->
+        </test-method> <!-- reportTerminate -->
       </class> <!-- org.dwsapp.allproductstest.ProductTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Regression2Suite -->
+    </test> <!-- asiTest -->
+  </suite> <!-- RegSuite -->
 </testng-results>
